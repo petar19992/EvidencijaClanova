@@ -110,6 +110,31 @@ namespace SQLiteRepository2008
 
                 Clan clan = new Clan();
                 clan.sifraKartice = Convert.ToInt32(labId.Text);
+
+                //Deo provere da li sifra postoji
+                IQuery v = session.CreateQuery("SELECT sifraKartice FROM Clan");
+                IList<int> sifre;
+                try
+                {
+                    sifre = v.List<int>();
+                }
+                catch
+                {
+                    sifre = new List<Int32>();
+                }
+                if (sifre.IndexOf(clan.sifraKartice) != -1)
+                {
+                     DialogResult dialogResult = MessageBox.Show("Clan sa ovom sifrom kartice vec postoji, jeste li sigurni da zelite da ga dodate ?", "", MessageBoxButtons.YesNo);
+                     if (dialogResult == DialogResult.Yes)
+                     {
+                         
+                     }
+                     else
+                         if (dialogResult == DialogResult.No)
+                             return;
+                }
+                ///////////////////////////////
+
                 clan.ime = texIme.Text;
                 clan.prezime = texPrezime.Text;
                 clan.datumRodjenja = dateRodjenja.Value;

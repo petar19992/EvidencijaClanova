@@ -63,3 +63,6 @@ D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\Za INNO\SQLiteRepository200
 D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\Za INNO\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Debug\SQLiteRepository2008.TreningForma.resources
 D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\Za INNO\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Debug\EvidencijaClanova.csproj.GenerateResource.Cache
 D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\Za INNO\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Debug\SQLiteRepository2008.ListaTreninga.resources
+C:\Users\Petar\Documents\GitHub\EvidencijaClanova\SQLiteRepository2008\bin\x86\Debug\EvidencijaClanova.exe.config
+C:\Users\Petar\Documents\GitHub\EvidencijaClanova\SQLiteRepository2008\obj\x86\Debug\EvidencijaClanova.exe
+C:\Users\Petar\Documents\GitHub\EvidencijaClanova\SQLiteRepository2008\obj\x86\Debug\EvidencijaClanova.pdb
