@@ -1,0 +1,68 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/f:App.config" caret="74" fromTop="2" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/d:Entiteti/f:Projekat.cs" caret="90" fromTop="4" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/d:Entiteti/f:Radnik.cs" caret="634" fromTop="20" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/d:Entiteti/f:Sef.cs" caret="122" fromTop="5" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/d:Entiteti/f:Sektor.cs" caret="482" fromTop="15" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/d:Mapiranja/f:RadnikMapiranje.cs" caret="109" fromTop="3" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/d:Mapiranja/f:SefMapiranje.cs" caret="149" fromTop="5" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/d:Mapiranja/f:SektorMapiranje.cs" caret="109" fromTop="3" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/f:Form1.cs" caret="675" fromTop="28" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/d:Mapiranja/f:ProjekatMapiranje.cs" caret="0" fromTop="0" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/f:DataLayer.cs" caret="717" fromTop="19" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/f:App.config" caret="74" fromTop="2" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/d:Entiteti/f:Projekat.cs" caret="90" fromTop="4" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/d:Entiteti/f:Radnik.cs" caret="122" fromTop="5" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/d:Entiteti/f:Sef.cs" caret="122" fromTop="5" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/d:Entiteti/f:Sektor.cs" caret="82" fromTop="3" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/d:Mapiranja/f:SektorMapiranje.cs" caret="109" fromTop="3" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/d:Mapiranja/f:SefMapiranje.cs" caret="149" fromTop="5" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/d:Mapiranja/f:RadnikMapiranje.cs" caret="109" fromTop="3" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/d:Mapiranja/f:ProjekatMapiranje.cs" caret="109" fromTop="3" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/f:DataLayer.cs" caret="1971" fromTop="38" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/f:Form1.cs" caret="948" fromTop="26" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/f:Form1.cs" caret="365" fromTop="15" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/f:Form1.cs" caret="453" fromTop="22" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/f:DataLayer.cs" caret="307" fromTop="11" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/f:Form1.cs" caret="247" fromTop="9" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/f:Form1.cs" caret="716" fromTop="24" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/f:Form1.cs" caret="1050" fromTop="22" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/f:Form1.cs" caret="1333" fromTop="33" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/f:Form1.cs" caret="1423" fromTop="22" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/f:Form1.cs" caret="2056" fromTop="85" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/f:Form1.cs" caret="3146" fromTop="85" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/f:Form1.cs" caret="2146" fromTop="22" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/f:Form1.cs" caret="3111" fromTop="45" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/f:DataLayer.cs" caret="934" fromTop="25" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/f:DataLayer.cs" caret="1229" fromTop="29" />
+      <File id="694A65AF-C421-4E3A-AEFC-911182B3DB26/f:DataLayer.cs" caret="1397" fromTop="36" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files\NUnit 2.4.8\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="using" priority="0" />
+      <Item value="NHibernate" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

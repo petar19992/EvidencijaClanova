@@ -1,0 +1,68 @@
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\EvidencijaClanova\SQLiteRepository2008\SQLiteRepository2008\bin\x86\Release\EvidencijaClanova.exe.config
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\EvidencijaClanova\SQLiteRepository2008\SQLiteRepository2008\bin\x86\Release\EvidencijaClanova.exe
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\EvidencijaClanova\SQLiteRepository2008\SQLiteRepository2008\bin\x86\Release\EvidencijaClanova.pdb
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\EvidencijaClanova\SQLiteRepository2008\SQLiteRepository2008\bin\x86\Release\FluentNHibernate.dll
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\EvidencijaClanova\SQLiteRepository2008\SQLiteRepository2008\bin\x86\Release\Iesi.Collections.dll
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\EvidencijaClanova\SQLiteRepository2008\SQLiteRepository2008\bin\x86\Release\NHibernate.dll
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\EvidencijaClanova\SQLiteRepository2008\SQLiteRepository2008\bin\x86\Release\System.Data.SQLite.dll
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\EvidencijaClanova\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\SQLiteRepository2008.ClanarinaForm.resources
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\EvidencijaClanova\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\SQLiteRepository2008.Dodaj.resources
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\EvidencijaClanova\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\SQLiteRepository2008.Finansije.resources
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\EvidencijaClanova\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\EvidencijaClanova.Form1.resources
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\EvidencijaClanova\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\SQLiteRepository2008.Izmeni.resources
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\EvidencijaClanova\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\SQLiteRepository2008.MerenjeForm.resources
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\EvidencijaClanova\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\SQLiteRepository2008.Properties.Resources.resources
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\EvidencijaClanova\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\SQLiteRepository2008.TreningForma.resources
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\EvidencijaClanova\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\EvidencijaClanova.csproj.GenerateResource.Cache
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\EvidencijaClanova\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\EvidencijaClanova.exe
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\EvidencijaClanova\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\EvidencijaClanova.pdb
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\EvidencijaClanova\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\EvidencijaClanova.csprojResolveAssemblyReference.cache
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\EvidencijaClanova\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\SQLiteRepository2008.AboutBox1.resources
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\EvidencijaClanova\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\SQLiteRepository2008.Sifra.resources
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\EvidencijaClanova\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\SQLiteRepository2008.PromenaSifre.resources
+C:\Users\Nikola\Desktop\SQLiteRepository2008\SQLiteRepository2008\bin\x86\Release\EvidencijaClanova.exe.config
+C:\Users\Nikola\Desktop\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\EvidencijaClanova.exe
+C:\Users\Nikola\Desktop\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\EvidencijaClanova.pdb
+C:\Users\Nikola\Desktop\SQLiteRepository2008\SQLiteRepository2008\bin\x86\Release\EvidencijaClanova.exe
+C:\Users\Nikola\Desktop\SQLiteRepository2008\SQLiteRepository2008\bin\x86\Release\EvidencijaClanova.pdb
+C:\Users\Nikola\Desktop\SQLiteRepository2008\SQLiteRepository2008\bin\x86\Release\FluentNHibernate.dll
+C:\Users\Nikola\Desktop\SQLiteRepository2008\SQLiteRepository2008\bin\x86\Release\Iesi.Collections.dll
+C:\Users\Nikola\Desktop\SQLiteRepository2008\SQLiteRepository2008\bin\x86\Release\NHibernate.dll
+C:\Users\Nikola\Desktop\SQLiteRepository2008\SQLiteRepository2008\bin\x86\Release\System.Data.SQLite.dll
+C:\Users\Nikola\Desktop\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\EvidencijaClanova.csprojResolveAssemblyReference.cache
+C:\Users\Nikola\Desktop\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\SQLiteRepository2008.AboutBox1.resources
+C:\Users\Nikola\Desktop\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\SQLiteRepository2008.ClanarinaForm.resources
+C:\Users\Nikola\Desktop\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\SQLiteRepository2008.Dodaj.resources
+C:\Users\Nikola\Desktop\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\SQLiteRepository2008.Finansije.resources
+C:\Users\Nikola\Desktop\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\EvidencijaClanova.Form1.resources
+C:\Users\Nikola\Desktop\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\SQLiteRepository2008.Izmeni.resources
+C:\Users\Nikola\Desktop\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\SQLiteRepository2008.MerenjeForm.resources
+C:\Users\Nikola\Desktop\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\SQLiteRepository2008.PromenaSifre.resources
+C:\Users\Nikola\Desktop\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\SQLiteRepository2008.Properties.Resources.resources
+C:\Users\Nikola\Desktop\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\SQLiteRepository2008.Sifra.resources
+C:\Users\Nikola\Desktop\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\SQLiteRepository2008.TreningForma.resources
+C:\Users\Nikola\Desktop\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\EvidencijaClanova.csproj.GenerateResource.Cache
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\Za INNO\SQLiteRepository2008\SQLiteRepository2008\bin\x86\Release\EvidencijaClanova.exe.config
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\Za INNO\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\EvidencijaClanova.exe
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\Za INNO\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\EvidencijaClanova.pdb
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\Za INNO\SQLiteRepository2008\SQLiteRepository2008\bin\x86\Release\EvidencijaClanova.exe
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\Za INNO\SQLiteRepository2008\SQLiteRepository2008\bin\x86\Release\EvidencijaClanova.pdb
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\Za INNO\SQLiteRepository2008\SQLiteRepository2008\bin\x86\Release\FluentNHibernate.dll
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\Za INNO\SQLiteRepository2008\SQLiteRepository2008\bin\x86\Release\Iesi.Collections.dll
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\Za INNO\SQLiteRepository2008\SQLiteRepository2008\bin\x86\Release\NHibernate.dll
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\Za INNO\SQLiteRepository2008\SQLiteRepository2008\bin\x86\Release\System.Data.SQLite.dll
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\Za INNO\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\EvidencijaClanova.csprojResolveAssemblyReference.cache
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\Za INNO\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\SQLiteRepository2008.AboutBox1.resources
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\Za INNO\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\SQLiteRepository2008.ClanarinaForm.resources
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\Za INNO\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\SQLiteRepository2008.Dodaj.resources
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\Za INNO\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\SQLiteRepository2008.Finansije.resources
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\Za INNO\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\EvidencijaClanova.Form1.resources
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\Za INNO\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\SQLiteRepository2008.Izmeni.resources
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\Za INNO\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\SQLiteRepository2008.Mail.resources
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\Za INNO\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\SQLiteRepository2008.MerenjeForm.resources
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\Za INNO\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\SQLiteRepository2008.PromenaSifre.resources
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\Za INNO\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\SQLiteRepository2008.Properties.Resources.resources
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\Za INNO\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\SQLiteRepository2008.Sifra.resources
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\Za INNO\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\SQLiteRepository2008.TreningForma.resources
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\Za INNO\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\EvidencijaClanova.csproj.GenerateResource.Cache
+D:\Petar Ljubic\Naruceni programi\Evidencija Clanova\Za INNO\SQLiteRepository2008\SQLiteRepository2008\obj\x86\Release\SQLiteRepository2008.ListaTreninga.resources
