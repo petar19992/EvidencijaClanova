@@ -144,9 +144,9 @@ namespace SQLiteRepository2008
             foreach (Clanarina c in sveClanarine)
             {
 
-                DateTime poc = c.pocetak;
-                DateTime kraj = c.kraj;
-                if (poc >= datePocetak.Value && poc <= dateKraj.Value)
+                DateTime poc = c.pocetak.Date;
+                DateTime kraj = c.kraj.Date;
+                if (poc >= datePocetak.Value.Date && poc <= dateKraj.Value.Date)
                 {
                     String ime = " ";
                     String prezime = " ";
@@ -173,9 +173,9 @@ namespace SQLiteRepository2008
             {
                 foreach (Clanarina c in clan.sveClanarine)
                 {
-                    DateTime poc = c.pocetak;
-                    DateTime kraj = c.kraj;
-                    if (poc >= datePocetak.Value && poc <= dateKraj.Value)
+                    DateTime poc = c.pocetak.Date;
+                    DateTime kraj = c.kraj.Date;
+                    if (poc >= datePocetak.Value.Date && poc <= dateKraj.Value.Date)
                     {
                         String ime = " ";
                         String prezime = " ";

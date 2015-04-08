@@ -40,6 +40,9 @@ namespace SQLiteRepository2008
             otac = forma;
             InitializeComponent();
             session = DataLayer.GetSession();
+
+            dateClanarina.Value = DateTime.Today.AddMonths(1);
+
             IQuery q = session.CreateQuery("FROM Trening");
 
             sviTreninzi = q.List<Trening>();
@@ -48,10 +51,11 @@ namespace SQLiteRepository2008
                 this.combTrening.Items.Add(c.imeGrupe);
             }
             int[] prvihDeset = nadjiDesetSlobodnih();
-            foreach (int el in prvihDeset)
+            for (int i=0;i<10;i++)
             {
-                label15.Text +=" "+ el+ ", ";
+                label15.Text += " " + prvihDeset[i]+ ", ";
             }
+            label15.Text += " a najveca vrednost dodate sifre korisnika je " + prvihDeset[10];
             try
             {
                 combTrening.SelectedIndex = 0;
@@ -78,7 +82,7 @@ namespace SQLiteRepository2008
                 sifre = new List<Int32>();
             }
             int poc = 1;
-            int[] deset=new int[10];
+            int[] deset=new int[11];
             int counter = 0;
             while (counter < 10)
             {
@@ -88,6 +92,9 @@ namespace SQLiteRepository2008
                 }
                 poc++;
             }
+            try { deset[10] = sifre.Max(); }
+            catch { deset[10] = 0; }
+            
             return deset;
         }
 
