@@ -149,11 +149,45 @@ namespace EvidencijaClanova
                     IList<Clan> sviClanovi = q.List<Clan>();
                     foreach (Clan c in sviClanovi)
                     {
-                        this.dataGridView1.Rows.Add(c.sifraKartice.ToString(), c.ime, c.prezime, c.brojTelefona, c.datumRodjenja.Date.ToShortDateString(), c.trening.imeGrupe, c.clanarina, c.placena);
+                        ///////////////////////////////////// 9.4
+                        DateTime maxDate = new DateTime(2000, 1, 1);
+                        Clanarina najnovija = new Clanarina();
+                        foreach (Clanarina d in c.sveClanarine)
+                        {
+                            if (maxDate < d.kraj)
+                            {
+                                maxDate = d.kraj.Date;
+                                najnovija = d;
+                            }
+                        }
+                        String dat = "";
+                        if (maxDate == new DateTime(2000, 1, 1))
+                        {
+                            dat = "Nema podatka";
+                            this.dataGridView1.Rows.Add(c.sifraKartice.ToString(), c.ime, c.prezime, c.brojTelefona, c.datumRodjenja.Date.ToShortDateString(), c.trening.imeGrupe, najnovija.clanarina, najnovija.placena, najnovija.dug, dat);
+                            int b = dataGridView1.Rows.Count;
+                            dataGridView1.Rows[b - 1].Tag = c;
+                            if (Convert.ToInt32(c.dug) > 0)
+                                dataGridView1.Rows[b - 1].Cells["dug"].Style.BackColor = Color.Red;
+                        }
+                        else
+                        {
+                            this.dataGridView1.Rows.Add(c.sifraKartice.ToString(), c.ime, c.prezime, c.brojTelefona, c.datumRodjenja.Date.ToShortDateString(), c.trening.imeGrupe, najnovija.clanarina, najnovija.placena, najnovija.dug, maxDate);
+                            int b = dataGridView1.Rows.Count;
+                            dataGridView1.Rows[b - 1].Tag = c;
+                            if (Convert.ToInt32(najnovija.dug) > 0)
+                                dataGridView1.Rows[b - 1].Cells["dug"].Style.BackColor = Color.Red;
+                            if (maxDate < DateTime.Today)
+                            {
+                                dataGridView1.Rows[b - 1].Cells["Vazi_do"].Style.BackColor = Color.Blue;
+                            }
+                        }   
+                        //////////////////////////////
+                       /* this.dataGridView1.Rows.Add(c.sifraKartice.ToString(), c.ime, c.prezime, c.brojTelefona, c.datumRodjenja.Date.ToShortDateString(), c.trening.imeGrupe, c.clanarina, c.placena);
                         int b = dataGridView1.Rows.Count;
-                        dataGridView1.Rows[b - 1].Tag = c;
+                        dataGridView1.Rows[b - 1].Tag = c;*/
                     }
-                    session.Flush();
+                    //session.Flush();
                 }
             }
             else if (comboSearch.SelectedIndex == 1)//search po Imenu i Prezimenu
@@ -169,11 +203,48 @@ namespace EvidencijaClanova
                     IList<Clan> sviClanovi = v.List<Clan>();
                     foreach (Clan c in sviClanovi)
                     {
-                        this.dataGridView1.Rows.Add(c.sifraKartice.ToString(), c.ime, c.prezime, c.brojTelefona, c.datumRodjenja.Date.ToShortDateString(), c.trening.imeGrupe, c.clanarina, c.placena);
+
+                        ///////////////////////////////9.4
+                        DateTime maxDate = new DateTime(2000, 1, 1);
+                        Clanarina najnovija = new Clanarina();
+                        foreach (Clanarina d in c.sveClanarine)
+                        {
+                            if (maxDate < d.kraj)
+                            {
+                                maxDate = d.kraj.Date;
+                                najnovija = d;
+                            }
+                        }
+                        String dat = "";
+                        if (maxDate == new DateTime(2000, 1, 1))
+                        {
+                            dat = "Nema podatka";
+                            this.dataGridView1.Rows.Add(c.sifraKartice.ToString(), c.ime, c.prezime, c.brojTelefona, c.datumRodjenja.Date.ToShortDateString(), c.trening.imeGrupe, najnovija.clanarina, najnovija.placena, najnovija.dug, dat);
+                            int b = dataGridView1.Rows.Count;
+                            dataGridView1.Rows[b - 1].Tag = c;
+                            if (Convert.ToInt32(c.dug) > 0)
+                                dataGridView1.Rows[b - 1].Cells["dug"].Style.BackColor = Color.Red;
+                        }
+                        else
+                        {
+                            this.dataGridView1.Rows.Add(c.sifraKartice.ToString(), c.ime, c.prezime, c.brojTelefona, c.datumRodjenja.Date.ToShortDateString(), c.trening.imeGrupe, najnovija.clanarina, najnovija.placena, najnovija.dug, maxDate);
+                            int b = dataGridView1.Rows.Count;
+                            dataGridView1.Rows[b - 1].Tag = c;
+                            if (Convert.ToInt32(najnovija.dug) > 0)
+                                dataGridView1.Rows[b - 1].Cells["dug"].Style.BackColor = Color.Red;
+                            if (maxDate < DateTime.Today)
+                            {
+                                dataGridView1.Rows[b - 1].Cells["Vazi_do"].Style.BackColor = Color.Blue;
+                            }
+                        }   
+                        ///////////////////////////////////////////////////////
+
+
+                       /* this.dataGridView1.Rows.Add(c.sifraKartice.ToString(), c.ime, c.prezime, c.brojTelefona, c.datumRodjenja.Date.ToShortDateString(), c.trening.imeGrupe, c.clanarina, c.placena);
                         int b = dataGridView1.Rows.Count;
-                        dataGridView1.Rows[b - 1].Tag = c;
+                        dataGridView1.Rows[b - 1].Tag = c;*/
                     }
-                    session.Flush();
+                    //session.Flush();
                 }
                 else if (odvojeno.Count() == 2) // ovde odvojeno ime i prezime ali duplo
                 {
@@ -181,11 +252,47 @@ namespace EvidencijaClanova
                     IList<Clan> sviClanovi = v.List<Clan>();
                     foreach (Clan c in sviClanovi)
                     {
+                        DateTime maxDate = new DateTime(2000, 1, 1);
+                        Clanarina najnovija = new Clanarina();
+                        foreach (Clanarina d in c.sveClanarine)
+                        {
+                            if (maxDate < d.kraj)
+                            {
+                                maxDate = d.kraj.Date;
+                                najnovija = d;
+                            }
+                        }
+                        String dat = "";
+                        if (maxDate == new DateTime(2000, 1, 1))
+                        {
+                            dat = "Nema podatka";
+                            this.dataGridView1.Rows.Add(c.sifraKartice.ToString(), c.ime, c.prezime, c.brojTelefona, c.datumRodjenja.Date.ToShortDateString(), c.trening.imeGrupe, najnovija.clanarina, najnovija.placena, najnovija.dug, dat);
+                            int b = dataGridView1.Rows.Count;
+                            dataGridView1.Rows[b - 1].Tag = c;
+                            if (Convert.ToInt32(c.dug) > 0)
+                                dataGridView1.Rows[b - 1].Cells["dug"].Style.BackColor = Color.Red;
+                        }
+                        else
+                        {
+                            this.dataGridView1.Rows.Add(c.sifraKartice.ToString(), c.ime, c.prezime, c.brojTelefona, c.datumRodjenja.Date.ToShortDateString(), c.trening.imeGrupe, najnovija.clanarina, najnovija.placena, najnovija.dug, maxDate);
+                            int b = dataGridView1.Rows.Count;
+                            dataGridView1.Rows[b - 1].Tag = c;
+                            if (Convert.ToInt32(najnovija.dug) > 0)
+                                dataGridView1.Rows[b - 1].Cells["dug"].Style.BackColor = Color.Red;
+                            if (maxDate < DateTime.Today)
+                            {
+                                dataGridView1.Rows[b - 1].Cells["Vazi_do"].Style.BackColor = Color.Blue;
+                            }
+                        }   
+
+
+
+                        /*
                         this.dataGridView1.Rows.Add(c.sifraKartice.ToString(), c.ime, c.prezime, c.brojTelefona, c.datumRodjenja.Date.ToShortDateString(), c.trening.imeGrupe, c.clanarina, c.placena);
                         int b = dataGridView1.Rows.Count;
-                        dataGridView1.Rows[b - 1].Tag = c;
+                        dataGridView1.Rows[b - 1].Tag = c;*/
                     }
-                    session.Flush();
+                    //session.Flush();
                 }
                 else // greska
                 {
@@ -254,15 +361,21 @@ namespace EvidencijaClanova
 
         private void texSearch_KeyPress(object sender, KeyPressEventArgs e)
         {
+            
             if(!texSearch.Text.Equals(""))
             {
                 if(e.KeyChar == (char)13)
                     pretraga();
+                else 
+                    if(e.KeyChar == (char)8 && texSearch.Text.Length==1 )
+                        prikaziClanoveIzabranihTreninga();
             }
+           
             else
             {
                 prikaziClanoveIzabranihTreninga();
             }
+           // pretraga();
            
         }
 

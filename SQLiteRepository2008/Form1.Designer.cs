@@ -43,7 +43,6 @@
             this.texSearch = new System.Windows.Forms.TextBox();
             this.comboSearch = new System.Windows.Forms.ComboBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.treninziToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dodajToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.izmeniIliObrisiTreningToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.finansijeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -58,6 +57,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.dgmDodaj = new System.Windows.Forms.Button();
+            this.treninziToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -87,7 +87,7 @@
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(1130, 499);
+            this.dataGridView1.Size = new System.Drawing.Size(1145, 499);
             this.dataGridView1.TabIndex = 0;
             // 
             // id
@@ -194,15 +194,6 @@
             this.menuStrip1.Size = new System.Drawing.Size(516, 24);
             this.menuStrip1.TabIndex = 10;
             this.menuStrip1.Text = "menuStrip1";
-            // 
-            // treninziToolStripMenuItem
-            // 
-            this.treninziToolStripMenuItem.Checked = true;
-            this.treninziToolStripMenuItem.CheckOnClick = true;
-            this.treninziToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Indeterminate;
-            this.treninziToolStripMenuItem.Name = "treninziToolStripMenuItem";
-            this.treninziToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
-            this.treninziToolStripMenuItem.Text = "Treninzi";
             // 
             // dodajToolStripMenuItem
             // 
@@ -333,6 +324,15 @@
             this.dgmDodaj.UseVisualStyleBackColor = true;
             this.dgmDodaj.Click += new System.EventHandler(this.dgmDodaj_Click);
             // 
+            // treninziToolStripMenuItem
+            // 
+            this.treninziToolStripMenuItem.Checked = true;
+            this.treninziToolStripMenuItem.CheckOnClick = true;
+            this.treninziToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Indeterminate;
+            this.treninziToolStripMenuItem.Name = "treninziToolStripMenuItem";
+            this.treninziToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
+            this.treninziToolStripMenuItem.Text = "Treninzi";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -372,7 +372,6 @@
         private System.Windows.Forms.TextBox texSearch;
         private System.Windows.Forms.ComboBox comboSearch;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem treninziToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem dodajToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem finansijeToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox1;
@@ -393,6 +392,7 @@
         private System.Windows.Forms.ToolStripMenuItem sifraToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem promeniSifruToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem izmeniIliObrisiTreningToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem treninziToolStripMenuItem;
     }
 }
 
